@@ -9,6 +9,7 @@
 | 文件 | 说明 |
 |------|------|
 | `setup.sh` | 一键安装脚本（macOS / Linux / WSL） |
+| `uninstall.sh` | 一键卸载脚本 |
 | `setup.ps1` | Windows 引导脚本（调用 WSL 执行） |
 | `docs/claude-code-quickstart.md` | Claude Code 快速上手指南 |
 | `docs/openclaw-channel-setup.md` | OpenClaw 渠道配置（Telegram/Discord/Slack 等） |
@@ -21,7 +22,7 @@
 ### 一键安装（推荐）
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/devSC/cc-openclaw-setup/refs/tags/v1.0.0/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/devSC/cc-openclaw-setup/v1.0.1/setup.sh | bash
 ```
 
 ### macOS / Linux
@@ -42,6 +43,12 @@ bash setup.sh
 ```
 
 > Windows 版需要先安装 WSL2，脚本会自动引导安装。
+
+### 卸载
+
+```bash
+bash uninstall.sh
+```
 
 ---
 
